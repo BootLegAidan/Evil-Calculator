@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evil Calculator</title>
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+    <h1>
+      Evil Calculator
+    </h1>
+    <div class="nameCont">
+      <span class="firstName">
+        First Name
+        <input type="text" class="name" id="first" value="Elon" onkeyup="calculate()" onkeydown="removeChars()">
+      </span>
+      <span class="lastName">
+        Last Name
+        <input type="text" class="name" id="last" value="Musk" onkeyup="calculate()" onkeydown="removeChars()">
+      </span>
+    </div>
+    <br>
+    <div class="outputCont">
+      <h4 id="numOutput"></h4>
+      <h2 id="txtOutput"></h2>
+    </div>
+    <script src="evilAlgorithm.js" charset="utf-8"></script>
+  </body>
+</html>
